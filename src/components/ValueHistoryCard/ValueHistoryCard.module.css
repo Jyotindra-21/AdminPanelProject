@@ -1,0 +1,12 @@
+.textarea_filed {
+  padding: 10px;
+  font-size: large;
+  width: 100%;
+  border-radius: 5px;
+}
+.cardImage {
+  padding: 10px;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 15px;
+}

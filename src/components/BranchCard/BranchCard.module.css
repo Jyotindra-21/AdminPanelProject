@@ -1,0 +1,18 @@
+.card {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.card_bottom {
+  display: flex;
+  justify-content: end;
+}
+
+.card_content p{
+    width: 80%;
+    font-size: large;
+}
+.card_content a{
+    text-decoration: none;
+}

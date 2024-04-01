@@ -1,0 +1,17 @@
+.AboutContainer {
+  width: 100%;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+.form_control label {
+  padding: 10px 0;
+}
+.form_filed {
+  width: 80%;
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px;
+}
