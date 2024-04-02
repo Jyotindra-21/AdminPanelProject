@@ -18,9 +18,9 @@ const VisuallyHiddenInput = styled('input')({
 });
 export default function ValueHistoryCard({ img, description }) {
     return (
-        <Card sx={{ maxWidth: "80%", display: "flex", boxShadow: "inherit" }}>
+        <Card className={styles.Value_History_Card}>
             <img className={styles.cardImage} src={img} />
-            <CardContent sx={{ display: "flex", width: '60%', flexDirection: "column", gap: "15px" }}>
+            <CardContent className={styles.Card_content}>
                 <div>
 
                     <Button

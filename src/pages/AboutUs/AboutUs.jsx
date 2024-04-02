@@ -31,7 +31,7 @@ export default function AboutUs() {
                 </Box>
             </div>
             {/* History section */}
-            <Divider sx={{ width: "80%" }} />
+            <Divider className={styles.Divider_about} />
             <h4>History Section</h4>
             <div className={styles.uploadContainer}>
                 <ValueHistoryCard
@@ -41,14 +41,16 @@ export default function AboutUs() {
                 />
             </div>
             {/* Mission section */}
-            <Divider sx={{ width: "80%" }} />
+            <Divider className={styles.Divider_about} />
+
             <h4>Mission Section</h4>
             <div className={styles.uploadContainer}>
                 <textarea className={styles.form_filed} cols="30" rows="8" placeholder='Mission..' defaultValue={`Some mission here`}></textarea>
 
             </div>
             {/* Value section */}
-            <Divider sx={{ width: "80%" }} />
+            <Divider className={styles.Divider_about} />
+
             <h4>Value Section</h4>
             <div className={styles.uploadContainer}>
                 <ValueHistoryCard

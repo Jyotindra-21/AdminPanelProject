@@ -35,6 +35,14 @@
 }
 
 /* Responsive */
+
+@media only screen and (max-width: 600px) {
+  .ManageContainer {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .uploadBox {
     width: 100%;

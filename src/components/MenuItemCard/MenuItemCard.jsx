@@ -7,7 +7,7 @@ import styles from "./MenuItemCard.module.css"
 
 export default function MenuItemCard({ img, title, description, id }) {
   return (
-    <Card sx={{ maxWidth: "100%", display: "flex", border: "2px solid #ccc" }}>
+    <Card className={styles.Menu_Item_Card}>
       <img className={styles.cardImage} src={img}  />
       <CardContent sx={{ display: "flex", flexDirection: "column", gap: "15px" }}>
         <Typography gutterBottom variant="h6" component="div">
