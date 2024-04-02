@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./Slider.module.css"
+import styles from "./Voucher.module.css"
 import { Button } from '@mui/material'
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -14,15 +14,16 @@ import Paper from '@mui/material/Paper';
 const rows = [
   {
     id: 1,
-    image: "https://i.pinimg.com/originals/6f/99/0e/6f990ef112d7ab8ffc8cb9ca27633c9f.jpg"
+    image: "https://img.freepik.com/premium-vector/vector-gift-voucher-design-template-gift-voucher-template-promotion-sale-discount_471203-861.jpg"
   }
 ];
-export default function ManageSliderImage() {
+export default function ManageVoucher() {
   return (
     <div className={styles.AddSliderContainer}>
-      <h4>Manage Slider Image</h4>
+      <h4>Manage Voucher</h4>
       <div className={styles.uploadContainer}>
         <div className={styles.TableContainer}>
+
           <TableContainer component={Paper}>
             <Table aria-label="simple table">
               <TableHead>

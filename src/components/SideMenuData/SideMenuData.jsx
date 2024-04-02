@@ -6,6 +6,11 @@ import AcUnitIcon from "@mui/icons-material/AcUnit";
 import AppsIcon from "@mui/icons-material/Apps";
 import EditRoundedIcon from '@mui/icons-material/EditRounded';
 import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import AutoGraphIcon from '@mui/icons-material/AutoGraph';
+import BakeryDiningIcon from '@mui/icons-material/BakeryDining';
+import QuizIcon from '@mui/icons-material/Quiz';
+
 
 export const SideMenuData = [
   {
@@ -76,6 +81,112 @@ export const SideMenuData = [
         id: 502,
         title: "Manage Branches",
         path: "/branch/manage-branches",
+        icon: <EditRoundedIcon />,
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Voucher",
+    path: "/",
+    icon: <CardGiftcardIcon />,
+    subNav: [
+      {
+        id: 601,
+        title: "Add Voucher",
+        path: "/voucher/add-voucher",
+        icon: <AddCircleOutlineRoundedIcon />,
+      },
+      {
+        id: 602,
+        title: "Manage  Voucher",
+        path: "/voucher/manage-voucher",
+        icon: <EditRoundedIcon />,
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Current Voucher",
+    path: "/",
+    icon: <CardGiftcardIcon />,
+    subNav: [
+      {
+        id: 701,
+        title: "Add Current Voucher",
+        path: "/voucher/add-current-voucher",
+        icon: <AddCircleOutlineRoundedIcon />,
+      },
+      {
+        id: 702,
+        title: "Manage Current Voucher",
+        path: "/voucher/manage-current-voucher",
+        icon: <EditRoundedIcon />,
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Catering Course",
+    path: "/",
+    icon: <AutoGraphIcon />,
+    subNav: [
+      {
+        id: 801,
+        title: "Add Catering Course",
+        path: "/catering/add-catering-course",
+        icon: <AddCircleOutlineRoundedIcon />,
+      },
+      {
+        id: 802,
+        title: "Manage Catering Course",
+        path: "/catering/manage-catering-course",
+        icon: <EditRoundedIcon />,
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "Catering Page",
+    path: "/catering/manage-catering-page",
+    icon: <BakeryDiningIcon />,
+  },
+  {
+    id: 10,
+    title: "FAQ",
+    path: "/",
+    icon: <QuizIcon />,
+    subNav: [
+      {
+        id: 1001,
+        title: "Add FAQ",
+        path: "/faq/add-faq",
+        icon: <AddCircleOutlineRoundedIcon />,
+      },
+      {
+        id: 1002,
+        title: "Manage FAQ",
+        path: "/faq/manage-faq",
+        icon: <EditRoundedIcon />,
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: "Promo TnC",
+    path: "/",
+    icon: <QuizIcon />,
+    subNav: [
+      {
+        id: 1101,
+        title: "Add Promo TnC",
+        path: "/promo/add-promo-tnc",
+        icon: <AddCircleOutlineRoundedIcon />,
+      },
+      {
+        id: 1102,
+        title: "Manage Promo TnC",
+        path: "/promo/manage-promo-tnc",
         icon: <EditRoundedIcon />,
       },
     ],
