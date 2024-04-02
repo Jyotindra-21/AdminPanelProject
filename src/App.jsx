@@ -13,6 +13,17 @@ import ManageMenuItem from './pages/MenuItem/ManageMenuItem';
 import AboutUs from './pages/AboutUs/AboutUs';
 import AddBranches from './pages/Branches/AddBranches';
 import ManageBranches from './pages/Branches/ManageBranches';
+import AddVoucher from './pages/Voucher/AddVoucher';
+import ManageVoucher from './pages/Voucher/ManageVoucher';
+import AddCurrentVoucher from './pages/CurrentVoucher/AddCurrentVoucher';
+import ManageCurrentVoucher from './pages/CurrentVoucher/ManageCurrentVoucher';
+import AddCateringCourse from './pages/CateringCourse/AddCateringCourse';
+import ManageCateringCourse from './pages/CateringCourse/ManageCateringCourse';
+import ManageCateringPage from './pages/CateringPage/ManageCateringPage';
+import AddFAQ from './pages/FAQ/AddFAQ';
+import ManageFAQ from './pages/FAQ/ManageFAQ';
+import AddPromoTnC from './pages/PromoTnC/AddPromoTnC';
+import ManagePromoTnC from './pages/PromoTnC/ManagePromoTnC';
 
 const drawerWidth = 240;
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
@@ -77,6 +88,19 @@ export default function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/branch/add-branches" element={<AddBranches />} />
           <Route path="/branch/manage-branches" element={<ManageBranches />} />
+          <Route path="/voucher/add-voucher" element={<AddVoucher />} />
+          <Route path="/voucher/manage-voucher" element={<ManageVoucher />} />
+          <Route path="/voucher/add-current-voucher" element={<AddCurrentVoucher />} />
+          <Route path="/voucher/manage-current-voucher" element={<ManageCurrentVoucher />} />
+          <Route path="/catering/add-catering-course" element={<AddCateringCourse />} />
+          <Route path="/catering/manage-catering-course" element={<ManageCateringCourse />} />
+          <Route path="/catering/manage-catering-page" element={<ManageCateringPage />} />
+          <Route path="/faq/add-faq" element={<AddFAQ />} />
+          <Route path="/faq/manage-faq" element={<ManageFAQ />} />
+          <Route path="/promo/add-promo-tnc" element={<AddPromoTnC />} />
+          <Route path="/promo/manage-promo-tnc" element={<ManagePromoTnC />} />
+
+
         </Routes>
         {/* ROUTES END */}
       </Main>
