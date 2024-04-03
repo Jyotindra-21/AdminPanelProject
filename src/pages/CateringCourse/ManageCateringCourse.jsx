@@ -13,7 +13,7 @@ export default function ManageCateringCourse() {
 
         <CateringCourseCard
           img={`https://img.freepik.com/premium-vector/vector-gift-voucher-design-template-gift-voucher-template-promotion-sale-discount_471203-861.jpg`}
-          title={`Voucher Title`}
+          title={`Course Title`}
           pricePerPax={`20`}
           description={`Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica`} />
